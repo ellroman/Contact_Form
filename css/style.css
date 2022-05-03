@@ -1,0 +1,169 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+body{
+margin: 0;
+padding: 0;
+text-align: center;
+}
+
+.main_container{
+    width: 100vw;
+    height: 100vh;
+    background-image: url(/images/IMG_1539.jpg);
+    background-size: cover;
+    background-position: absolute;
+}
+
+.container{
+    width: 450px;
+    /* min-width: 854px;
+    max-width: 3840px;
+    min-height: 480px;
+    max-height: 2160px; */
+    height: 450px;
+    /* background-image: url(/images/taga3.png); */
+    background: linear-gradient(10deg, rgb(38, 73, 73), #112649);
+    /* background-size: cover;
+    background-position: center; */
+    /* background-image: linear-gradient(rgba(0,0,0,0.7), #3551b5) url(/images/taga3.png);
+    background-position: center;
+    background-size: cover; */
+    align-items: center;
+    /* aspect-ratio: 16 / 9;
+    flex-grow: 1 ; */
+    border-radius: 5%;
+    margin: auto;
+    margin-top: 55px;
+    border: 2px solid yellow;
+}
+
+h1{
+    font-family: sans-serif;
+    padding-top: 40px;
+    padding-bottom: 10px;
+    color: white;
+    font-weight: 600px;
+    text-align: center;
+}
+
+
+
+.header{
+    width: 100vw;
+    height: 140px;
+    background-color: white;
+    display: flex;
+    top: 0;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+ 
+.taga_logo{
+    align-items: center;
+    margin-top: 10px;
+}
+
+form{
+    align-items: center;
+}
+
+.name{
+    width: 200px;
+    margin-bottom: 5px;
+}
+
+.email{
+    width: 200px;
+}
+
+.input-name{
+    position: relative;
+    left: 0;
+}
+
+.input-email{
+    position: relative;
+    left: 0;
+    margin-top: 20px;
+}
+
+textarea{
+    outline: 0;
+    border: 1px solid #fff;
+    color: #fff;
+    background: transparent;
+    font-size: 18px;
+    resize: none;
+    margin-top: 10px;
+}
+
+label{
+
+    position: relative;
+    padding: 10px;
+    color: rgb(255, 255, 255);
+    cursor: text;
+    transition: 02.s;
+    display: block;
+}
+
+
+
+button{
+    padding: 10px;
+    color: #fff;
+    outline: none;
+    /* background: transparent; */
+    background-color: rgb(16, 235, 16);
+    border: 1px solid #fff;
+    width: 35%;
+    cursor: pointer;
+    align-items: center;
+}
+
+/* input:focus~label,
+input:valid~label,
+textarea:focus~label,
+textarea:valid~label{
+    top: -15px;
+    font-size: 18px;
+} */
+
+.row{
+padding: 20px;
+display: block;
+}
+
+.row .input-name{
+    display: block;
+}
+
+
+/* .row .input-group{
+    flex-basis: 38%;
+} */
+
+.submit button{
+    margin-top: 30px;
+    align-items: center;
+}
+
+
+/* 
+.message{
+    width: 75%;
+    height: 100px;
+    margin-top: 40px;
+} */
+
+.input_message .message{
+    height: 50px;
+    align-items: center;
+}

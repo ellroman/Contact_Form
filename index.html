@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://kit.fontawesome.com/25209a487e.js" crossorigin="anonymous"></script>
+    <script src="main.js"></script>
+    <title>Contact Page</Form></title>
+
+</head>
+<body> 
+    <div class="main_container">
+    <div class="header">
+        <div class="taga_logo"><img src="/images/taga1-removebg.png" alt="" width="240px" height="210px"></div>
+    </div>
+    <div class="container">
+        <h1>Pre-Order TAGA Apparel</h1>
+        <!-- <form class ="contact_form" method="post">             -->
+            <form action="https://formspree.io/f/meqnprza" method="POST">
+            <div class="row">
+                <div class="input-name">
+                    <label for="name">
+                        <i class="fa-solid fa-user"></i> 
+                        Name
+                        <input type="text" class="name" name="name" required>
+                    </label>
+                </div>
+                <div class="input-email">
+                    <label for="email">
+                        <i class="fa-solid fa-envelope"></i>
+                        Email
+                        <input type="email" class="email" name="email" required>
+                    </label>
+                </div>
+            </div>
+            <div class="input_message">              
+             <label for="message">
+                 <i class="fa-solid fa-comment"></i>
+                 Enter Your Size: Small / Medium / sLarge
+                 <textarea class="message" name="message" cols="30" rows="8"></textarea>  
+                </label>
+            </div>
+            <div class="status"></div>
+            <div class="submit">
+            <button type="submit" class="submit" value="Send"><i class="fa-solid fa-arrow-right-to-arc"></i>SUBMIT</button>
+            </div>
+        </form>
+    </div>
+</div>
+    <!-- <script src="https://smtpjs.com/v3/smtp.js"></script>
+    <script>
+        const form = document.querySelector('.contact_form');
+
+        function sendMessage(e){
+            e.preventDefault();
+                const name = document.querySelector('.name'),
+                    email = document.querySelector('.email'),
+                    message = document.querySelector('.message');
+
+                Email.send({
+                    Host: "smtp.gmail.com",
+                    Username: "elromanmedia@gmail.com",
+                    Password: "hjibwwjshmeoqalg",
+                    To: 'elromanmedia@gmail.com',
+                    From: email.value,
+                    Subject: "New Contact Form",
+                    Body: message.value,
+                // Body: "Name: " + document.getElementById("name").value 
+                // + "<br> Email: " + document.getElementById("email").value
+                // + "<br> Message: " + document.getElementById("message").value
+                    }).then(
+                        message => alert("Sent Successfully!")
+                    );
+            }
+
+        form.addEventListener('submit', sendMessage);
+    </script> -->
+</body>
+</html>
+
+
