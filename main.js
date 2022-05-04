@@ -3,7 +3,6 @@
 $(document).ready(function () {
     $('.submit').click(function (event) {
         //console.log('clicked button')
-
         var name = $('.name').val()
         //var number = $('.number').val()
         var email = $('.email').val()
@@ -11,7 +10,6 @@ $(document).ready(function () {
         var statusElement = $('.status')
         statusElement.empty()
         
-
         if(email.length >= 5 && email.includes('@') && email.includes('.')) {
             statusElement.append('<div>email is valid</div>')
         }else{
@@ -34,16 +32,16 @@ $(document).ready(function () {
         }
 */
 
-        if(message.length >= 0) {
+        if(message.length >= 1) {
             statusElement.append('<div>message is valid</div>')
         }else{
             event.preventDefault();
-            statusElement.append('<div>message is not valid</div>')
+            statusElement.append('<div>Please Type Your Size</div>')
         }
 
         // Email.send({
-        //     SecureToken : "68d37b6f-8078-4d02-a5f4-ef6b0ad97e37",
-        //     To: 'elromanmedia@gmail.com',
+        //     SecureToken : "smtp",
+        //     To: '@gmail',
         //     From: email,
         //     Subject: "New Contact Form",
         //     Body: "Name: " + document.getElementById("name").value 
@@ -52,11 +50,7 @@ $(document).ready(function () {
         //     }).then(
         //         message => alert("Sent Successfully!")
         // );
-        
-    })
-
-
-    
+    })  
 })
 
 
