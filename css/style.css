@@ -9,22 +9,38 @@ body{
 margin: 0;
 padding: 0;
 text-align: center;
+width: 100vw;
+height: 100vh;
+background-image: url(/images/IMG_1539.jpg);
+background-size: cover;
+background-position: absolute;
 }
 
-.main_container{
+/* .main_container{
     width: 100vw;
     height: 100vh;
     background-image: url(/images/IMG_1539.jpg);
     background-size: cover;
     background-position: absolute;
+} */
+.header{
+    width: 100vw;
+    height: 140px;
+    background-color: white;
+    display: flex;
+    top: 0;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
 }
 
 .container{
     width: 450px;
     /* min-width: 854px;
-    max-width: 3840px;
-    min-height: 480px;
-    max-height: 2160px; */
+    max-width: 450px;
+    min-height: 450px;
+    max-height: 450px; */
     height: 450px;
     /* background-image: url(/images/taga3.png); */
     background: linear-gradient(10deg, rgb(38, 73, 73), #112649);
@@ -49,20 +65,6 @@ h1{
     color: white;
     font-weight: 600px;
     text-align: center;
-}
-
-
-
-.header{
-    width: 100vw;
-    height: 140px;
-    background-color: white;
-    display: flex;
-    top: 0;
-    margin: auto;
-    justify-content: center;
-    align-items: center;
-    padding: 20px;
 }
  
 .taga_logo{
@@ -113,8 +115,6 @@ label{
     transition: 02.s;
     display: block;
 }
-
-
 
 button{
     padding: 10px;
