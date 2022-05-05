@@ -24,6 +24,8 @@ background-position: absolute;
     background-position: absolute;
 } */
 .header{
+    max-width: 100vw;
+    min-width: 100vw;
     width: 100vw;
     height: 140px;
     background-color: white;
@@ -36,12 +38,15 @@ background-position: absolute;
 }
 
 .container{
-    width: 450px;
+    max-width: 450px;
+    min-width: 400px;
+    width: 500px;
     /* min-width: 854px;
     max-width: 450px;
     min-height: 450px;
     max-height: 450px; */
     height: 450px;
+    max-height: 450px;
     /* background-image: url(/images/taga3.png); */
     background: linear-gradient(10deg, rgb(38, 73, 73), #112649);
     /* background-size: cover;
