@@ -41,8 +41,8 @@ padding-bottom: 20px;
 }
 
 .container{
-    max-width: 550px;
-    min-width: 500px;
+    max-width: 530px;
+    min-width: 480px;
     width: 500px;
     /* min-width: 854px;
     max-width: 450px;
@@ -95,11 +95,13 @@ form{
 }
 
 .input-name{
+    margin-right: 20px;
     position: relative;
     left: 0;
 }
 
 .input-email{
+    margin-right: 20px;
     position: relative;
     left: 0;
     margin-top: 20px;
