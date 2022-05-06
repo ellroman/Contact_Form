@@ -16,17 +16,9 @@ background-size: cover;
 background-position: absolute;
 }
 
-/* .main_container{
-    width: 100vw;
-    height: 100vh;
-    background-image: url(/images/IMG_1539.jpg);
-    background-size: cover;
-    background-position: absolute;
-} */
 .header{
-    max-width: 3020px;
-    min-width: 300px;
-    width: 100%;
+    max-width: none;
+    width: 100vw;
     height: 140px;
     background-color: white;
     top: 0;
@@ -37,10 +29,6 @@ background-position: absolute;
     display: flex;
     justify-content: center;
 }
-/* .header img{
-    max-width: 3000px;
-    win-width: 1080px;
-} */
 
 .container{
     max-width: 450px;
@@ -64,7 +52,7 @@ background-position: absolute;
     flex-grow: 1 ; */
     border-radius: 5%;
     margin: auto;
-    margin-top: 290px;
+    margin-top: 280px;
     border: 2px solid yellow;
     position: relative;
 }
