@@ -7,13 +7,16 @@
 
 body{
     height: 100%;
-    width: 100%;
+    max-width: 3200px;
+    min-width: none;
     margin: 0;
     padding: 0;
     text-align: center;
     background-image: url(/images/IMG_1539.jpg);
     background-size: cover;
     background-position: absolute;
+    align-items: center;
+    justify-content: center;
 }
 
 .header{
