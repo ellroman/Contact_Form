@@ -60,7 +60,7 @@ padding-bottom: 20px;
     margin-top: 240px;
     margin-bottom: 100px;
     border: 2px solid yellow;
-    position: relative;
+    justify-content: center;
 }
 
 h1{
