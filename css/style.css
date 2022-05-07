@@ -9,8 +9,6 @@ body{
     height: 100%;
     max-width: 3200px;
     min-width: 320px;
-    margin: 0;
-    padding: 0;
     text-align: center;
     background-image: url(/images/IMG_1539.jpg);
     background-size: cover;
@@ -20,37 +18,42 @@ body{
 }
 
 .header{
-    max-width: none;
     width: 100%;
     min-width: 500px;
     width: 100%;
-    height: 150px;
-    background-color: white;
+    height: 133px;
+    background-image: linear-gradient(-20deg, #fafafa 0%, #ffffff 100%);
+    /* background-image: radial-gradient(circle farthest-side, #fceabb, #f8b500); */
     top: 0;
     position: absolute;
-    display: flex;
     justify-content: center;
     overflow: hidden;
+    border-bottom: 1px solid rgb(16, 16, 16);
+    
 }
 
 .image img{
-width: 150px;
-height: 165px;
-padding-bottom: 20px;
+width: 120px;
+height: 130px;
+margin-top: 5px;
 }
 
 .container{
-    max-width: 500px;
-    min-width: 500px;
-    width: 500px;
+    max-width: 400px;
+    min-width: 450px;
+    width: 50%;
     /* min-width: 854px;
     max-width: 450px;
     min-height: 450px;
     max-height: 450px; */
-    height: 450px;
+    height: 420px;
     max-height: 450px;
+    background-image: linear-gradient(-20deg, #294366 0%, #02114b 100%);
+    /* background-image: radial-gradient(circle farthest-side, #fff703, #0a5063); */
+    /* background-image: radial-gradient( circle farthest-corner at 22.4% 21.7%, rgba(4,189,228,1) 0%, rgba(2,83,185,1) 100.2% ); */
+
     /* background-image: url(/images/taga3.png); */
-    background: linear-gradient(10deg, rgb(38, 73, 73), #112649);
+    /* background: linear-gradient(10deg, rgb(38, 73, 73), #112649); */
     /* background-size: cover;
     background-position: center; */
     /* background-image: linear-gradient(rgba(0,0,0,0.7), #3551b5) url(/images/taga3.png);
@@ -71,7 +74,7 @@ h1{
     padding-top: 40px;
     padding-bottom: 10px;
     color: white;
-    font-weight: 600px;
+    font-weight: 550px;
     text-align: center;
 }
  
@@ -161,7 +164,7 @@ display: block;
 } */
 
 .submit button{
-    margin-top: 30px;
+    margin-top: 20px;
     align-items: center;
 }
 
