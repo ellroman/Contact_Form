@@ -8,13 +8,13 @@
 body{
     height: 100%;
     max-width: 3200px;
-    min-width: 320px;
+    min-width: 450px;
     text-align: center;
     background-image: url(/images/IMG_1539.jpg);
     background-size: cover;
     background-position: absolute;
-    align-items: center;
-    justify-content: center;
+    margin: 0;
+    padding: 0;
 }
 
 .header{
@@ -39,9 +39,8 @@ margin-top: 5px;
 }
 
 .container{
-    max-width: 400px;
+    max-width: 450px;
     min-width: 450px;
-    width: 50%;
     /* min-width: 854px;
     max-width: 450px;
     min-height: 450px;
@@ -59,14 +58,16 @@ margin-top: 5px;
     /* background-image: linear-gradient(rgba(0,0,0,0.7), #3551b5) url(/images/taga3.png);
     background-position: center;
     background-size: cover; */
-    align-items: center;
     /* aspect-ratio: 16 / 9;
     flex-grow: 1 ; */
+    margin-left: 0 auto;
+    margin-right: 0 auto;
     border-radius: 5%;
-    margin: 0 auto;
     margin-top: 240px;
     margin-bottom: 100px;
     border: 2px solid yellow;
+    text-align: center;
+    display: inline-block;
 }
 
 h1{
