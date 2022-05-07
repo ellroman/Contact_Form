@@ -7,8 +7,7 @@
 
 body{
     height: 100%;
-    max-width: 3200px;
-    min-width: 250px;
+    width: 100%;
     text-align: center;
     background-image: url(/images/IMG_1539.jpg);
     background-size: cover;
